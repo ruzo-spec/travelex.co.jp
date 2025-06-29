@@ -176,7 +176,7 @@
     }
 
     // EmailJS初期化（YOUR_PUBLIC_KEYに置き換えてください）
-    emailjs.init("YOUR_PUBLIC_KEY");
+    emailjs.init("9HNN-K7grBupR0XAg");
 
     // 認証コード保持
     let authCode = "";
@@ -241,7 +241,7 @@
     // お問い合わせ送信処理
     function sendInquiry() {
       const form = document.getElementById('inquiryForm');
-      emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_INQUIRY_TEMPLATE", form)
+      emailjs.sendForm("ruzo685@adadad.uk", "認証を行ってください", form)
         .then(() => alert("お問い合わせを送信しました。"))
         .catch(error => alert("エラーが発生しました: " + error));
     }

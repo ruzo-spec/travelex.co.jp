@@ -132,7 +132,7 @@
     <!-- ステップ 2: reCAPTCHA -->
     <section class="step">
       <h2>ステップ2: ロボット確認</h2>
-      <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY" data-callback="onRecaptchaSuccess"></div>
+      <div class="g-recaptcha" data-sitekey="6LftyXErAAAAAMgacpb6IFCHV9iT6V-VLnrOmTmH" data-callback="onRecaptchaSuccess"></div>
       <button id="recaptchaBtn" class="next-btn" disabled>次へ ▶</button>
     </section>
 
